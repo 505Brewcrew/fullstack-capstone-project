@@ -1,5 +1,4 @@
-/*jshint esversion: 6 */
-
+/*jshint esversion: 8 */
 const express = require('express');
 const router = express.Router();
 const connectToDatabase = require('../models/db');
@@ -38,7 +37,7 @@ router.get('/:id', async (req, res, next) => {
     }
 });
 
-
+ 
 // Add a new gift
 router.post('/', async (req, res, next) => {
     try {
@@ -52,4 +51,4 @@ router.post('/', async (req, res, next) => {
     }
 });
 
-module.exports = router;
+module.exports = router; 

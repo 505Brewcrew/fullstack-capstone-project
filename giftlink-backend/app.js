@@ -28,7 +28,7 @@ const authRoutes = require('./routes/authRoutes');
 const searchRoutes = require('./routes/searchRoutes');
 const pinoHttp = require('pino-http');
 const logger = require('./logger');
-<Route path="/app/profile" element={<Profile/>} />
+Route path="/app/profile" element={<Profile/>};
 app.use(pinoHttp({ logger }));
 
 // Use Routes
